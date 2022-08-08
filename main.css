@@ -6,7 +6,7 @@
     --darkGrey: #474b4f;
     --lightGrey: #6b6e70;
     --lightBlue: #3432c2;
-    --darkBlue: #0f0474;
+    --darkBlue: #ffffff;
     --transition: all 0.5s ease;
 }
 *{
@@ -228,7 +228,7 @@ blockquote span{
 }
 .sec-one-left{
     height: 100vh;
-    background: url("images/project-main.jpg") center/cover no-repeat;
+    background: url("images/Dream-Wolf-Canvas.jpg") center/cover no-repeat;
     box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 14px -1px rgba(0, 0, 0, 0.75);
@@ -564,11 +564,10 @@ blockquote span{
 
     /* section five */
     .contact-middle{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     .contact-bottom{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 40px;
     }
 }
