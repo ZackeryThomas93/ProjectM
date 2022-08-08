@@ -5,8 +5,8 @@
     --dark: #111;
     --darkGrey: #474b4f;
     --lightGrey: #6b6e70;
-    --lightGreen: #86c232;
-    --darkGreen: #61892f;
+    --lightBlue: #3432c2;
+    --darkBlue: #0f0474;
     --transition: all 0.5s ease;
 }
 *{
@@ -44,27 +44,27 @@ h1, h2, h3, h4, h5, h6, p{
     margin: 0 auto;
 }
 .btn{
-    background: var(--darkGreen);
+    background: var(--darkBlue);
     border: none;
     display: block;
     width: 150px;
     text-align: center;
-    color: var(--darkGreen);
+    color: var(--darkBlue);
     text-transform: uppercase;
     background: transparent;
     font-size: 15px;
     padding: 12px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid var(--darkBlue);
     border-radius: 25px;
     margin: 15px 0;
     transition: var(--transition);
 }
 .btn:hover{
-    background: var(--darkGreen);
+    background: var(--darkBlue);
     color: #fff;
 }
 .active{
-    color: var(--lightGreen)!important;
+    color: var(--lightBlue)!important;
 }
 
 /**************** end of Utility Classes *******************/
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6, p{
 .top-nav ul a::after{
     content: "";
     height: 2px;
-    background: var(--lightGreen);
+    background: var(--lightBlue);
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 48px;
     text-align: center;
     margin-bottom: 35px;
-    color: var(--lightGreen);
+    color: var(--lightBlue);
 }
 .about-content h3{
     color: #fff;
@@ -183,7 +183,7 @@ blockquote{
 blockquote span{
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--darkGreen);
+    color: var(--darkBlue);
     font-weight: 300;
     letter-spacing: 5px;
     display: block;
@@ -211,8 +211,8 @@ blockquote span{
     justify-content: space-around;
 }
 .social-icons ul a:hover{
-    background: var(--lightGreen);
-    border-color: var(--lightGreen);
+    background: var(--lightBlue);
+    border-color: var(--lightBlue);
 }
 
 /********************* End of Header ***********************/
@@ -372,7 +372,7 @@ blockquote span{
     display: block;
 }
 .badge{
-    background: var(--lightGreen);
+    background: var(--lightBlue);
     width: 140px;
     border-radius: 5px;
     padding: 5px 0;
@@ -445,7 +445,7 @@ blockquote span{
     font-size: 16px;
     padding: 10px 15px;
     margin: 10px 0;
-    border: 1px solid var(--lightGreen);
+    border: 1px solid var(--lightBlue);
     outline: none;
     border-radius: 5px;
 }
@@ -469,7 +469,7 @@ blockquote span{
     margin: 40px 0;
 }
 .footer-container h2{
-    color: var(--lightGreen);
+    color: var(--lightBlue);
     font-size: 36px;
     font-weight: 500;
     letter-spacing: 7px;
@@ -504,7 +504,7 @@ blockquote span{
     font-size: 16px;
     padding: 15px 0;
     font-weight: bold;
-    background: var(--lightGreen);
+    background: var(--lightBlue);
     border: none;
     transition: var(--transition);
     cursor: pointer;
