@@ -192,7 +192,10 @@ blockquote span{
     width: 350px;
     margin: 40px auto 0 auto;
     padding-bottom: 30px;
+    
+    
 }
+
 .social-icons ul a{
     color: #fff;
     font-size: 30px;
@@ -205,6 +208,7 @@ blockquote span{
     justify-content: center;
     align-items: center;
     transition: var(--transition);
+    
 }
 .social-icons ul{
     display: flex;
@@ -665,4 +669,6 @@ blockquote span{
         grid-template-columns: 1fr;
         grid-row-gap: 20px;
     }
+
+    
 }
